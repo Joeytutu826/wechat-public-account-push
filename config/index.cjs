@@ -12,20 +12,20 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
-
-  PROVINCE: '广东',
-  CITY: '惠州',
+USE_PASSAGE: 'push-deer',
+  PROVINCE: '江苏',
+  CITY: '南京',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'PDU17348TzJrWVzpkOdw3f33cOrmmzbxtsRvtJXDs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'lXdtrggV7JgK7GExJmIcxx7eCoVVMsk_aG_uo7nPPuQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '3-30',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
